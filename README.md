@@ -12,7 +12,8 @@
 
 ### render
 
-- `Automatic batching` & `flushSync`
-  - 하나의 이벤트 동작안에서 여러개의 state update 호출
+- `Automatic batching` & 
+  - `flushSync`
+    - 동기적으로 DOM rendering을 수행 
   - setTimeout 에서의 state update 호출
 - `strick mode`
